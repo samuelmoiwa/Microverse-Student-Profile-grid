@@ -7,7 +7,7 @@
   --span-color: #7f8cff;
   --paragraph-color: #344563;
   --font-family: "Poppins", sans-serif;
-  --li-color: ##c1c7d0;
+  --li-color: #c1c7d0;
   --h3-color: #172b4d;
   --h2-color: #172b4d;
   --btn-bg-color: #ebebff;
@@ -77,6 +77,11 @@ h2 {
   color: var(--h1-color);
   font-size: 36px;
   padding: 0 24px 12px 24px;
+  font-family: var(--font-family);
+}
+
+.name {
+  padding-left: 20px;
 }
 
 .paragraph {
@@ -154,7 +159,8 @@ li {
 
 .flex-items {
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .canopy {
@@ -168,6 +174,8 @@ li {
   font-size: 15px;
   line-height: 24px;
   width: 270px;
+  margin-bottom: 10px;
+  font-family: var(--font-family);
 }
 
 .list-item {
@@ -181,6 +189,7 @@ li {
 .btn-container-flex {
   display: flex;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -196,7 +205,10 @@ li {
   padding: 4px 12px 4px 12px;
   transition: 0.2s;
   border: none;
-  color: #b7bcff;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: var(--font-family);
 }
 
 .btn-md {
@@ -206,9 +218,12 @@ li {
   height: 24px;
   border-radius: 8px;
   border: none;
-  color: #b7bcff;
+  color: #6070ff;
   padding: 4px 12px;
   transition: 0.2s;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: var(--font-family);
 }
 
 .btn-lg {
@@ -218,8 +233,11 @@ li {
   border-radius: 5px;
   border: none;
   background-color: #ebebff;
-  color: #b7bcff;
+  color: #6070ff;
   transition: 0.2s;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: var(--font-family);
 }
 
 .btn-container {
@@ -237,6 +255,7 @@ li {
   font-weight: 500;
   font-size: 17px;
   transition: 0.2s;
+  font-family: var(--font-family);
 }
 
 .btn-sm:hover,
@@ -279,6 +298,7 @@ li {
   line-height: 52px;
   margin: 0 24px 12px 12px;
   padding-top: 114px;
+  padding-left: 10px;
 }
 
 .about-btn {
